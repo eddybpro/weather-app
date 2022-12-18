@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #b5b5b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    max-width: 400px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+}
+
+.container .danger{
+    text-align: center;
+    color: red;
+    padding-bottom:1rem ;
+    font-size: 1.2rem;
+    display: none;
+}
+
+.container .danger.active{
+    display: block;
+}
+
+.container .info{
+    background-color: rgb(34, 206, 245);
+    border-bottom-left-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+}
+
+.container  form{
+    position: relative;
+}
+
+.container  form input{
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+    padding: .4rem .8rem;
+    text-transform: capitalize;
+    background-color: rgb(211, 211, 216);
+    border-top-right-radius: .3rem;
+    border-top-left-radius: .3rem;
+    outline: none;
+}
+
+.container form input::placeholder{
+    color: rgb(141, 126, 126);
+}
+
+.container form .btn{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+.container .info .info-head form .btn:hover i{
+    color: blue;
+}
+
+
+.container .info .info-head .info-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    text-transform: capitalize;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.country{
+    color: rgb(54, 146, 1);
+}
+
+.container .info .weather-info{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.container .info .weather-info .temp{
+    font-size: 2rem;
+    padding: 0 .5rem;
+}
+
+.img-weather{
+    display: inline;
+    width: 55px;
+    margin-bottom: -15px;
+}
+
+.container .info .weather-info .desc{
+    text-transform: capitalize;
+    padding-top: .5rem;
+}
+
+.text-container .date{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding-top: 1rem;
+}
+
+.text-container .text-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    text-transform: capitalize;
+}
+
+.text-container .text-info .box{
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.text-container .text-info .box p:first-child{
+    padding-bottom: .5rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .container{
+        padding: 1rem 0.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
